@@ -7,13 +7,14 @@ function Cadastro(){
         <>
         <ContainerGeral>
             <CardCadastro>
+                <CardDireita>
+
+                </CardDireita>
+
                 <CardEsquerda>
-                    
+                   
                 </CardEsquerda>
 
-                <CardDireita>
-                    <Botao/>
-                </CardDireita>
             </CardCadastro>
         </ContainerGeral>
         </>

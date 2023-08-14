@@ -1,9 +1,11 @@
+import style from "./style.css"
+
 function Botao(){
     return(
         <>
-        <Botao>
-            Aqui
-        </Botao>
+        <button div="Botao">
+            
+        </button>
         </>
     )
 }
