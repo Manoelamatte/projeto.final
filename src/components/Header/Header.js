@@ -1,8 +1,11 @@
-import style from "./style.css"
+import './style.css';
+import { ContainerHeader } from './styled';
 
 function Header(){
     return(
         <>
+
+        <ContainerHeader>
          <menu>
            <li><button onclick="click">Filmes</button></li>
            <li><button onclick="click">Resenhas</button></li>
@@ -18,6 +21,7 @@ function Header(){
           <input type="text" id="txtBusca" placeholder="Buscar..."/>
           <button id="btnBusca">Buscar</button>
       </div>
+      </ContainerHeader>
         </>
     )
 }

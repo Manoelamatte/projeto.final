@@ -1,10 +1,12 @@
-import Botao from "../../components/Botao/Botao"
+// import Botao from "../../components/Botao/Botao"
+// import Header from "../../components/Header/Header"
 import { ContainerGeral } from "../../styledGlobal"
 import { CardCadastro, CardDireita, CardEsquerda } from "./styled"
 
 function Cadastro(){
     return(
         <>
+        
         <ContainerGeral>
             <CardCadastro>
                 <CardDireita>

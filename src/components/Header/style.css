@@ -1,20 +1,8 @@
 
-header {
-    background-color: rgba(37, 35, 35, 1);
-    display: flex;
-     align-items: center;
-    justify-content: space-between; 
-    padding: 0 50px;
-    height: 10%;
-}
-
-
 #campoDeBusca{
     justify-content: right;
     border-color: rgb(255, 255, 255);
 }
-
-
 
 #divBusca{
     background-color:#ffffff;

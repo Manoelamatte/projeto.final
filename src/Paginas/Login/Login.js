@@ -1,6 +1,11 @@
 // function Login(){
 //         const navigate = useNavigate()
 
+import { ContainerGeral } from "../../styledGlobal"
+import { CardCadastro } from "../Cadastro/styled"
+import { CardDireita2, CardEsquerda2, Tituloo } from "./styled"
+
+
 // const goToHome = ()=>{
 //     navigate('/')
 // }
@@ -28,3 +33,25 @@
 // }
 
 // export default Login
+
+function Login(){
+    return(
+        <>
+            <ContainerGeral>
+                <CardCadastro>
+                    <CardEsquerda2>
+                        <Tituloo>
+                            skskskksks
+                        </Tituloo>
+                    </CardEsquerda2>
+
+                    <CardDireita2>
+                        
+                    </CardDireita2>
+                </CardCadastro>
+            </ContainerGeral>        
+        </>
+    )
+}
+
+export default Login
