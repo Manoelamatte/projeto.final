@@ -33,7 +33,7 @@ export const Titulo2 = styled.h3`
 `
 
 export const TextField = styled.div`
-    width: 100%
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
