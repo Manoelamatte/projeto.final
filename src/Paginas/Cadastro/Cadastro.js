@@ -1,27 +1,34 @@
-// import Botao from "../../components/Botao/Botao"
-// import Header from "../../components/Header/Header"
-import { ContainerGeral } from "../../styledGlobal"
-import Cadastro from "../Login/Login"
-import { CardCadastro, CardDireita, CardEsquerda } from "./styled"
+import {ContainerGeral, CardCadastro, CardDireita, CardEsquerda, TextField, TituloCadastro, Botao} from "../Cadastro/styled.jsx"
+import { Input } from "./styled.jsx"
 
 function Cadastro(){
-    return(
-        <>
-        
-        <ContainerGeral>
+  return(
+    <>
+     <ContainerGeral>
             <CardCadastro>
                 <CardDireita>
 
                 </CardDireita>
 
                 <CardEsquerda>
-                   
+                  <TituloCadastro>Cadastre-se</TituloCadastro>
+
+
+                  <TextField>
+                     <Input type="text" name="email" placeholder="email"></Input>
+                     <Input type="password" name="senha" placeholder="senha"></Input>
+                     <Input type="password" name="senha" placeholder="confirme a senha"></Input>
+                  </TextField>
+
+                  <Botao>
+                    Login
+                  </Botao>
                 </CardEsquerda>
 
             </CardCadastro>
         </ContainerGeral>
-        </>
-    )
+    </>
+  )
 }
 
 export default Cadastro
