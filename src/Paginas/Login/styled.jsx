@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const CardEsquerda2 = styled.div`
+export const CardDireita2 = styled.div`
     width: 30vw;
     height: 75vh;
     flex-direction: column;
@@ -8,7 +8,7 @@ export const CardEsquerda2 = styled.div`
     border-radius: 10%;
 `
 
-export const CardDireita2 = styled.div`
+export const CardEsquerda2 = styled.div`
     width: 35vw;
     height: 80vh;
     flex-direction: column;
