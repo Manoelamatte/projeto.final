@@ -41,6 +41,8 @@ export const TextField = styled.div`
     flex-direction: column;
     align-items: center;
     padding-top: 10px;
+    row-gap: 20px;
+    padding-left: 20px;
     `
     
 export const Input = styled.input`
@@ -51,17 +53,14 @@ export const Input = styled.input`
     background: rgb(233, 225, 226);
     font-size: 12pt;
     outline: none;
-    box-sizing: border-box
+    box-sizing: border-box;
 `
-export const Label = styled.label`
-    color: rgb(255, 255, 255);
-    margin-bottom: 10px;
-`
+
 
 export const TituloCadastro = styled.h1`
 color: #950101;
   padding: 05%;
-  padding-left: 25%;
+  padding-left: 30%;
   font-family: Arial, Helvetica, sans-serif;
 `
 
@@ -69,7 +68,7 @@ export const Botao = styled.button`
     width: 30%;
     padding: 16px;
     margin: 25px;
-    margin-left: 130px;
+    margin-left: 160px;
     border: none;
     border-radius: 10px;
     text-transform: uppercase;

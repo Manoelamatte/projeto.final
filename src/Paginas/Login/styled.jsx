@@ -16,8 +16,6 @@ export const CardEsquerda2 = styled.div`
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 `
-
-
 // esquerda
 export const Tituloo = styled.h1`
     color: #950101;
@@ -39,7 +37,8 @@ export const TextField = styled.div`
     justify-content: center;
     margin: 10px 55;
     padding-top: 10px;
-    `
+    padding-left: 50px;
+`
 
 export const Input = styled.input`
     width: 70%;
@@ -50,10 +49,7 @@ export const Input = styled.input`
     font-size: 12pt;
     outline: none;
     box-sizing: border-box
-`
-export const Label = styled.label`
-    color: rgb(255, 255, 255);
-    margin-bottom: 10px;
+    
 `
 // fim da esquerda
 
@@ -71,4 +67,4 @@ export const Botao = styled.button`
     cursor: pointer;
     color: white;
     box-shadow: 0px n10px n40px -12px $3D0000;
-    `
+`

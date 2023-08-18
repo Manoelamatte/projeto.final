@@ -1,7 +1,7 @@
 import { ContainerGeral } from "../../styledGlobal"
 import { CardCadastro } from "../Cadastro/styled"
 // import { CardDireita2, CardEsquerda2, Tituloo } from "./styled"
-import { CardDireita2, CardEsquerda2, Tituloo, Titulo2, TextField, Input, Label, Botao } from "./styled"
+import { CardDireita2, CardEsquerda2, Tituloo, Titulo2, TextField, Input, Botao } from "./styled"
 
 
 function Login(){

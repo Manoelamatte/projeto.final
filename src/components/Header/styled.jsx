@@ -8,3 +8,9 @@ export const ContainerHeader = styled.header`
     padding: 0 50px;
     height: 10%;
 `
+
+export const H2 = styled.h2`
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(228, 0, 0);
+`

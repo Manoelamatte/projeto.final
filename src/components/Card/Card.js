@@ -1,7 +1,9 @@
+import { ContainerCard } from "./styled"
+
 function Card(){
     return(
         <>
-        <Card/>
+        <ContainerCard/>
         </>
     )
 }

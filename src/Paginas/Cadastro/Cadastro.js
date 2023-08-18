@@ -1,5 +1,6 @@
 import {ContainerGeral, CardCadastro, CardDireita, CardEsquerda, TextField, TituloCadastro, Botao} from "../Cadastro/styled.jsx"
 import { Input } from "./styled.jsx"
+import Card from "../../components/Card/Card.js"
 
 function Cadastro(){
   return(
