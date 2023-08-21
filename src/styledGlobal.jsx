@@ -1,4 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components"
+import Fundo from "./assets/Fundo.png"
 
 export const GlobalStyle = createGlobalStyle`
     body{
@@ -15,5 +16,5 @@ export const ContainerGeral = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-
+    background-image:url(${Fundo}); 
 `
