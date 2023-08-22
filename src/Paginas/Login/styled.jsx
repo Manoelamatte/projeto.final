@@ -5,7 +5,7 @@ export const CardDireita2 = styled.div`
     width: 30vw;
     height: 75vh;
     flex-direction: column;
-    background-color: #3D0000;
+    background-color:rgba(106, 14, 14, 1);
     border-radius: 10%;
 `
 
@@ -15,6 +15,7 @@ export const CardEsquerda2 = styled.div`
     flex-direction: column;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    background-color: #ffffff;
 `
 // esquerda
 export const Tituloo = styled.h1`
@@ -23,7 +24,7 @@ export const Tituloo = styled.h1`
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 50px;
 `
-export const Titulo2 = styled.h3`
+export const Titulo2 = styled.h2`
     color: #950101;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 50px;
@@ -32,12 +33,11 @@ export const Titulo2 = styled.h3`
 
 export const TextField = styled.div`
     width: 100%;
+    min-height: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 10px 55;
-    padding-top: 10px;
-    padding-left: 50px;
+    margin: 10px;
 `
 
 export const Input = styled.input`
@@ -45,15 +45,12 @@ export const Input = styled.input`
     border: none;
     border-radius: 10px;
     padding: 15px;
-    background: rgb(233, 225, 226);
     font-size: 12pt;
     outline: none;
-    box-sizing: border-box
-    
+    box-sizing: border-box;
+    background-color: yellow;
 `
-// fim da esquerda
 
-// direita
 
 export const Botao = styled.button`
     width: 35%;
@@ -67,4 +64,33 @@ export const Botao = styled.button`
     cursor: pointer;
     color: white;
     box-shadow: 0px n10px n40px -12px $3D0000;
+`
+// fim
+
+// direita
+
+export const TextoDireita = styled.h2`
+    color: white;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+`
+
+export const BotaoDireita = styled.button`
+    width: 40%;
+    padding: 16px 0px;
+    margin: 20px 115px;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color: rgba(212, 0, 0, 1);
+    cursor: pointer;
+    color: white;
+    box-shadow: 0px n10px n40px -12px $3D0000;
+`
+
+export const ImagemDireita = styled.img`
+    padding-left: 60px;
+    height: 40vh;
+    weight: 40vw;
 `

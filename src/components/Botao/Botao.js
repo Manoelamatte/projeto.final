@@ -1,11 +1,13 @@
-import style from "./style.css"
+import { ContainerGeral } from "../../Paginas/Cadastro/styled"
+import { Butao } from "./styled"
 
 function Botao(){
     return(
         <>
-        <button div="Botao">
-            
-        </button>
+            <Butao>
+                sjwnsjw
+            </Butao>
+       
         </>
     )
 }
