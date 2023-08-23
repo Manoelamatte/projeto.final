@@ -22,17 +22,8 @@ export const CardDireita = styled.div`
    width: 30vw;
     height: 75vh;
     flex-direction: column;
-    background-color: #3D0000;
+    background-color:rgba(106, 14, 14, 1);
     border-radius: 10%;
-`
-
-export const ContainerGeral = styled.div`
-    background-color:rgb(17, 10, 10);
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 `
 
 export const TextField = styled.div`
@@ -58,7 +49,7 @@ export const Input = styled.input`
 
 
 export const TituloCadastro = styled.h1`
-color: #950101;
+  color: #950101;
   padding: 05%;
   padding-left: 30%;
   font-family: Arial, Helvetica, sans-serif;
@@ -77,4 +68,18 @@ export const Botao = styled.button`
     cursor: pointer;
     color: white;
     box-shadow: 0px 10px 40px -12px  #3D0000;
+`
+
+export const EscritaDireita = styled.h2`
+    padding: 30px;
+    padding-left: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+`
+
+export const ImgCadastro = styled.img`
+    padding-left: 80px;
+    padding-top: 35px;
+    height: 30vh;
+    weight: 30vw;
 `

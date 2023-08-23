@@ -1,6 +1,7 @@
 import { Butao } from "../../components/Botao/styled.jsx"
-import {ContainerGeral, CardCadastro, CardDireita, CardEsquerda, TextField, TituloCadastro, Botao} from "../Cadastro/styled.jsx"
-import { Input } from "./styled.jsx"
+import { CardCadastro, CardDireita, CardEsquerda, TextField, TituloCadastro,  EscritaDireita, ImgCadastro} from "../Cadastro/styled.jsx"
+import { ContainerGeral } from "../../styledGlobal"
+import imagemCadastro from  "../../assets/imagemCadastro.png"
 
 function Cadastro(){
   return(
@@ -8,19 +9,22 @@ function Cadastro(){
      <ContainerGeral>
             <CardCadastro>
                 <CardDireita>
+                  <EscritaDireita>
+                     Cadastre-se para ter acesso aos nossos conteúdos informativos!
+                  </EscritaDireita>
 
+                  <ImgCadastro src={imagemCadastro}/>
                 </CardDireita>
 
                 <CardEsquerda>
                   <TituloCadastro>Cadastre-se</TituloCadastro>
 
 
-                  {/* <TextField>
+                   {/* <TextField>
                      <Input type="text" name="email" placeholder="email"></Input>
                      <Input type="password" name="senha" placeholder="senha"></Input>
                      <Input type="password" name="senha" placeholder="confirme a senha"></Input>
-                  </TextField> */}
-
+                  </TextField>  */}
           
                   <Butao>
                     Entrar
