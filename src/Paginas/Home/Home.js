@@ -1,16 +1,36 @@
 // import { useNavigate } from "react-router-dom"
 import './style.css';
 import { ContainerGeral } from '../../styledGlobal';
-import Footer from '../../components/Footer/Footer';
-import Header2 from '../../components/Header/Header2';
+import { useNavigate } from "react-router-dom"
+import Header from '../../components/Header/Header';
+import { BotaoHome } from './styled';
 
 function Home(){
-    // const navigate = useNavigate()
-    // const 
+    const navigate = useNavigate()
+
+    const goToLogin = () =>{
+        navigate('/login')
+    } 
+
+    const goToCadastro = ()=>{
+        navigate('/cadastro')
+    }
+
+
     return(
         <>
-        <ContainerGeral>
+        <Header>
+           <BotaoHome onClick={goToLogin} >
+                Login
+            </BotaoHome>
 
+            <BotaoHome onClick={goToCadastro} >
+                Cadastro
+            </BotaoHome>
+        </Header>
+
+        <ContainerGeral>
+    
         </ContainerGeral>
         </>
     )

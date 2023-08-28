@@ -10,13 +10,13 @@ function Header(){
         <H2>
         CINEMA EMPOWERMENT
         </H2>
-
+{/* 
          <menu>
            <li><button onclick="click">Filmes</button></li>
            <li><button onclick="click">Resenhas</button></li>
            <li><button onclick="click">Sexualização</button></li>
            <li><button onclick="click">Teste de Bechdel</button></li>
-        </menu>
+        </menu> */}
       
       </ContainerHeader>
         </>
