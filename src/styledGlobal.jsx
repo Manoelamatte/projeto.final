@@ -12,7 +12,13 @@ export const ContainerGeral = styled.div`
     width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
     background-image:url(${Fundo}); 
+`
+export const ContainerCenter = styled.div`
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 30px;
 `

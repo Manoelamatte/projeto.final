@@ -1,7 +1,18 @@
+import { useNavigate } from 'react-router-dom';
 import './style.css';
-import { ContainerHeader, H2 } from './styled';
+import { BotaoHeader, ContainerBotao, ContainerHeader, H2, } from './styled';
 
 function Header(){
+
+     const navigate = useNavigate()
+      const goToLogin = () =>{
+        navigate('/login')
+    } 
+
+    const goToCadastro = ()=>{
+        navigate('/cadastro')
+    }
+
     return(
         <>
 
@@ -10,14 +21,18 @@ function Header(){
         <H2>
         CINEMA EMPOWERMENT
         </H2>
-{/* 
-         <menu>
-           <li><button onclick="click">Filmes</button></li>
-           <li><button onclick="click">Resenhas</button></li>
-           <li><button onclick="click">Sexualização</button></li>
-           <li><button onclick="click">Teste de Bechdel</button></li>
-        </menu> */}
-      
+
+        <ContainerBotao>
+        <BotaoHeader onClick={goToLogin}>
+            Login
+        </BotaoHeader>
+        
+        <BotaoHeader onClick={goToCadastro}>
+            cadastrado
+        </BotaoHeader>
+        </ContainerBotao>
+        
+
       </ContainerHeader>
         </>
     )

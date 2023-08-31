@@ -12,9 +12,11 @@ export const CardDireita2 = styled.div`
 export const CardEsquerda2 = styled.div`
     width: 35vw;
     height: 80vh;
+    display:flex;
     flex-direction: column;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border: 1px solid black;
+    /* border-top-left-radius: 20px; */
+    /* border-bottom-left-radius: 20px; */
     background-color: #ffffff;
 `
 // esquerda
@@ -32,23 +34,26 @@ export const Titulo2 = styled.h2`
 `
 
 export const TextField = styled.div`
-    width: 100%;
-    min-height: 50px;
+    /* width: 100%; */
+    /* height: 50px; */
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 10px;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* margin: 10px; */
+    background-color: yellow;
+    
 `
 
-export const Input = styled.input`
-    width: 70%;
+export const InputStyle = styled.input`
+    /* width: 70%; */
     border: none;
     border-radius: 10px;
-    padding: 15px;
+    /* padding: 15px; */
     font-size: 12pt;
-    outline: none;
+    /* outline: none; */
     box-sizing: border-box;
-    background-color: yellow;
+    background-color: red;
+    
 `
 
 
@@ -60,7 +65,7 @@ export const Botao = styled.button`
     border-radius: 10px;
     text-transform: uppercase;
     letter-spacing: 3px;
-    background-color: #950101;
+    background-color: rgba(212, 0, 0, 1);
     cursor: pointer;
     color: white;
     box-shadow: 0px n10px n40px -12px $3D0000;

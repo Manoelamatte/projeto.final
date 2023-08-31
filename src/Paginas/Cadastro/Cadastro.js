@@ -1,12 +1,22 @@
 import { Butao } from "../../components/Botao/styled.jsx"
 import { CardCadastro, CardDireita, CardEsquerda, TextField, TituloCadastro,  EscritaDireita, ImgCadastro} from "../Cadastro/styled.jsx"
-import { ContainerGeral } from "../../styledGlobal"
+import { ContainerCenter, ContainerGeral } from "../../styledGlobal"
 import imagemCadastro from  "../../assets/imagemCadastro.png"
+import { useNavigate } from "react-router-dom"
+import Header from "../../components/Header/Header.js"
 
 function Cadastro(){
+  const navigate = useNavigate()
+  const goToPrincipal = ()=>{
+    navigate('/principal')
+}
+
   return(
     <>
      <ContainerGeral>
+      <Header/>
+        <ContainerCenter>
+
             <CardCadastro>
                 <CardDireita>
                   <EscritaDireita>
@@ -26,12 +36,14 @@ function Cadastro(){
                      <Input type="password" name="senha" placeholder="confirme a senha"></Input>
                   </TextField>  */}
           
-                  <Butao>
+                  <Butao onClick={goToPrincipal}>
                     Entrar
                   </Butao>
                 </CardEsquerda>
 
             </CardCadastro>
+
+           </ContainerCenter>
         </ContainerGeral>
     </>
   )

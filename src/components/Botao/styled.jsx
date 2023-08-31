@@ -9,7 +9,7 @@ export const Butao = styled.button`
     border-radius: 10px;
     text-transform: uppercase;
     letter-spacing: 3px;
-    background-color: #950101;
+    background-color: rgba(212, 0, 0, 1);
     cursor: pointer;
     color: white;
     box-shadow: 0px 10px 40px -12px  #3D0000;

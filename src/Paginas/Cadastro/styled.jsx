@@ -51,23 +51,8 @@ export const Input = styled.input`
 export const TituloCadastro = styled.h1`
   color: #950101;
   padding: 05%;
-  padding-left: 30%;
+  padding-left: 33%;
   font-family: Arial, Helvetica, sans-serif;
-`
-
-export const Botao = styled.button`
-    width: 30%;
-    padding: 16px;
-    margin: 25px;
-    margin-left: 160px;
-    border: none;
-    border-radius: 10px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    background-color: #950101;
-    cursor: pointer;
-    color: white;
-    box-shadow: 0px 10px 40px -12px  #3D0000;
 `
 
 export const EscritaDireita = styled.h2`
