@@ -1,5 +1,4 @@
 import { useNavigate } from 'react-router-dom';
-import './style.css';
 import { BotaoHeader, ContainerBotao, ContainerHeader, H2, } from './styled';
 
 function Header(){

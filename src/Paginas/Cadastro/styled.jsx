@@ -8,6 +8,7 @@ export const CardCadastro = styled.div`
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    margin: 30px;
 `
 
 export const CardEsquerda = styled.div`

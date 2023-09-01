@@ -14,7 +14,8 @@ export const CardEsquerda2 = styled.div`
     height: 80vh;
     display:flex;
     flex-direction: column;
-    border: 1px solid black;
+   
+    
     /* border-top-left-radius: 20px; */
     /* border-bottom-left-radius: 20px; */
     background-color: #ffffff;

@@ -75,14 +75,3 @@ input{
 }
 
 
-footer{
-    background-color:rgb(180, 176, 177);
-    height: 5vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top:150%;
-    
-}

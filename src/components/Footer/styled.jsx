@@ -1,10 +1,23 @@
 import styled from "styled-components"
 
 export const ContainerFooter = styled.footer`
-    background-color: #3D0000;
+    /* background-image:  */
+    position: absolute;
+    margin-top: 90vh;
+    width: 100vw;
     display: flex;
     align-items: center;
-    justify-content: space-between; 
-    padding: 0 50px;
-    height: 10%;
+    justify-content: center;
+    position: absolute;
 `
+
+export const CardFooter = styled.div`
+  width: 20vw;
+  height: 40vh;
+  padding-top: 20px;
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 20px;
+  animation: mymove 5s infinite;
+  position: relative;
+  `

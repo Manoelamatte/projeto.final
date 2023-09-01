@@ -2,15 +2,17 @@
 import './style.css';
 import { ContainerGeral, GlobalStyle } from '../../styledGlobal';
 import Header from '../../components/Header/Header';
+import Footer from '../../components/Footer/Footer';
 
 function Home(){
     
     return(
         <>
         <GlobalStyle/>
-        <Header/>
-
         <ContainerGeral>
+            <Header/>
+
+            <Footer/>
         </ContainerGeral>
         </>
     )

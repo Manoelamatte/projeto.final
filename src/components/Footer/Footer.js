@@ -1,11 +1,14 @@
-import { ContainerFooter } from "./styled"
+import { CardFooter, ContainerFooter } from "./styled"
+
 
 
 function Footer(){
     return(
         <>
         <ContainerFooter>
-            <p>naan</p>
+            <CardFooter></CardFooter>
+            <CardFooter></CardFooter>
+            <CardFooter></CardFooter>
         </ContainerFooter>
         </>
     )
