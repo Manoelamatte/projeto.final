@@ -9,6 +9,7 @@ export const ComentariosCard = styled.div`
   align-items: center;
   flex-direction: column;
   border-radius: 10px;
+  margin: 30px;
 `;
 
 export const MiniContainer = styled.div`
@@ -16,15 +17,15 @@ export const MiniContainer = styled.div`
   height: 10vh;
   background-color: darkred;
   margin: 20px;
-  border-radius: 30px;
+  border-radius: 20px;
   justify-content: space-between;
 `;
 
 export const TextoMiniContainer = styled.p`
   color: white;
-  font-size: 15pt;
+  font-size: 12pt;
   position: relative;
-  margin-top: -40px;
+  margin-top: -35px;
   margin-left: 70px;
 `;
 
@@ -47,7 +48,7 @@ export const CardBolinha = styled.div`
   border-radius: 100%;
   margin: 05px;
   background-color: white;
-`
+`;
 
 export const BotaoPublicar = styled.button`
   border-color: darkred;
@@ -60,10 +61,10 @@ export const BotaoPublicar = styled.button`
   color: darkred;
   margin-left: 470px;
 
-  /* :hover {
+  :hover {
     background-color: red;
-  } */
-`
+  }
+`;
 
 export const ImagemMascara = styled.img`
   width: 04vw;

@@ -15,6 +15,7 @@ export const ContainerGeral = styled.div`
     flex-direction: column;
     background-image:url(${Fundo}); 
 `
+
 export const ContainerCenter = styled.div`
     align-items: center;
     justify-content: center;

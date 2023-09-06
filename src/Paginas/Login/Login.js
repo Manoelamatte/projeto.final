@@ -35,11 +35,11 @@ function Login(){
                         </Titulo2>
 
 
-                        <TextField>
+                        {/* <TextField>
                             <InputStyle type="text" name="email" placeholder="email"/>
                             <InputStyle type="password" name="senha" placeholder="senha"/>
-                        </TextField>
-
+                        </TextField> */}
+                      
                         <Botao onClick={goToPrincipal}>
                             Login
                         </Botao>

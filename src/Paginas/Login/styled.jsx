@@ -57,7 +57,6 @@ export const InputStyle = styled.input`
     
 `
 
-
 export const Botao = styled.button`
     width: 35%;
     padding: 16px 0px;
